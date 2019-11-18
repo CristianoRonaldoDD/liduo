@@ -52,4 +52,4 @@
 	    }
 		System.out.println(s+"出现的次数为"+count);
 五、实验结果
- ![image]()
+ ![image](https://github.com/CristianoRonaldoDD/liduo/blob/master/l.png)
