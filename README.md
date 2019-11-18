@@ -18,9 +18,13 @@
 云鬓花颜金步摇，芙蓉帐暖度春宵。
 春宵苦短日高起，从此君王不早朝。
 …………
-三、流程图
-![image]()
-四、核心代码
+三、实验过程
+1.将该段文字打包成数组放在一个字符数组中
+2.用for循环每7个字添加一个逗号，每14字添加一个句号和换行符“\n”
+3．对比字符是否相等，输出相同字符数目
+四、流程图
+![image](https://github.com/CristianoRonaldoDD/liduo/blob/master/d.png)
+五、核心代码
 1.将该段文字打包成数组放在一个字符数组中
 		String line = new String(args[0]);	
 		c  = line.length();
@@ -51,5 +55,6 @@
 	        count++;
 	    }
 		System.out.println(s+"出现的次数为"+count);
-五、实验结果
+六、实验结果
  ![image](https://github.com/CristianoRonaldoDD/liduo/blob/master/l.png)
+七、实验感想
